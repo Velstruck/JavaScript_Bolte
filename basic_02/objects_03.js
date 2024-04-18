@@ -12,3 +12,4 @@ const JsUser = {
     lastLogginDays:["Monday","Saturday"]
 }
 console.log(JsUser["email yes"]);
+// 9:33
