@@ -63,6 +63,13 @@ const course ={
     price:"999",
     courseInstructor:"vasu"
 }
+ // DESTRUCTURING
 
 const {courseInstructor:Instructor}= course
 console.log(Instructor);
+//API Structure
+{
+    "name":"Vasu",
+    "coursename":"DSA",
+    "price":"free"
+}
