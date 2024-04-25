@@ -1,0 +1,45 @@
+let a =300
+if (true) {
+    let a = 40
+   // console.log("INNER", a);
+}
+
+// console.log(a);
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+    
+// }
+
+// function one(){
+//     const username="Vasu"
+//     function two(){
+//         const website="youtube"
+//         console.log(username);
+//     }
+//     // console.log(website);
+
+//     two()
+// }
+// one()
+
+if (true) {
+    const username="Vasue"
+    if(username==="Vasue"){
+        const website = " Youtube"
+       // console.log(username+website);
+    }
+}
+
+// console.log(username);
+//hoisting not holding here 
+console.log(addOne(5))
+function addOne(num) {
+    return num+1
+    
+}
+
+addTwo(5) //hoisting concept
+const addTwo = function(num){
+    return num+2
+}
+
