@@ -68,6 +68,7 @@ const course ={
 const {courseInstructor:Instructor}= course
 console.log(Instructor);
 //API Structure
+cousrwala=
 {
     "name":"Vasu",
     "coursename":"DSA",
