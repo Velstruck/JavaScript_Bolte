@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main aur tum</title>
+</head>
+<body style="background-color: black; color: #fff;">
+    
+</body>
+<script>
+    const div  = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id=Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "genreted title")
+    div.style.backgroundColor='green'
+    div.style.padding='12px'
+   // div.innerText="main aur tum"//pehle value leke ayegafir setkrega
+   const addText = document.createTextNode("Main aur tum")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+    
+</script>
+</html>
